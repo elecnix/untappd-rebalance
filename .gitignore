@@ -1,0 +1,17 @@
+# Secrets. By default they live in ~/.config/untappd-rebalance/ (0600) and never here;
+# these patterns are the seatbelt for when someone puts them in the repo by accident.
+cookies.json
+cookie*.json
+token.json
+*credentials*.json
+app-client.json
+
+# APKs and whatever unzip leaves behind
+*.apk
+*.xapk
+*.apkm
+apk-extract/
+
+# Scratch
+node_modules/
+*.log
